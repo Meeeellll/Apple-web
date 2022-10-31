@@ -96,6 +96,10 @@ footer {
     grid-column: span 9;
 }
 
+.span6 {
+    grid-column: span 6;
+}
+
 .text-container {
     flex-direction: column;
 }
@@ -199,3 +203,99 @@ header .text-container {
     object-position: left;
 }
 
+/** Watch section **/
+
+.watch {
+    padding: 30px 50px 0 50px;
+}
+
+.watch .text-container img {
+    width: 100px;
+}
+
+/** Airpods section **/
+
+.airpods {
+    height: auto;
+}
+
+/** Music & TV section **/
+
+.musictv {
+    padding: 30px;
+}
+
+.musictv .text-container {
+    background: #101010;
+}
+
+.musictv .text {
+    height: 50%;
+    width: 50%;
+    padding: 60px 0 0 0;
+    text-align: center;
+    flex-direction: column;
+}
+
+.musictv .text-container .icon {
+    width: 100px;
+    height: 40px;
+}
+
+.musictv .text-container h3 {
+    color: #FFF;
+}
+
+.musictv .text-container .enlace-info {
+    margin: 10px 0 30px 0;
+}
+
+.musictv .imagen {
+    height: 100%;
+    align-items: flex-end;
+}
+
+.musictv .ct2 {
+    background: #FFF;
+}
+
+.musictv .ct2 .icon {
+    width: 150px;
+}
+
+.musictv .ct2 h3 {
+    color: var(--text-color);
+}
+
+/** iMac section **/
+
+.imac {
+    background: #FFF;
+    padding: 50px 0;
+}
+
+.imac h1 {
+    font-size: 56px;
+}
+
+.imac h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.imac h3 {
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+
+.imac img {
+    width: 50%;
+}
+
+/** Footer **/
+
+footer img {
+    width: 16px;
+    opacity: .2;
+    transition: all .5s;
+}
